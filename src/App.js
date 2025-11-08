@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
+import {Navigation} from './routes';
+import "./App.scss";
 
-export default function () {
+export function App() {
   return (
     <div>
     <h1>hello world</h1>
