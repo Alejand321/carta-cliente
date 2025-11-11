@@ -1,9 +1,11 @@
 import React from 'react'
 import './ClientLayout.css'
-export function ClientLayout() {
+export function ClientLayout(props) {
+  const {children} = props
   return (
     <div>
       <p>ClientLayout</p>
+      {children}
     </div>
   )
 }
